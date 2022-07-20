@@ -11,10 +11,12 @@ body {
 
 .header-part {
     display: flex;
+    flex-direction: row;
     background-color: black;
     padding: 60px 50px;
     border-radius: 15px;
     margin: 120px 120px;
+
 }
 
 .header-text {
@@ -53,7 +55,7 @@ body {
 
 }
 
-/*............... responsive part........... */
+
 
 
 
@@ -141,6 +143,28 @@ body {
 
 }
 
+.tablet-first-part {
+    display: none;
+}
+
+/* extra add view all */
+.view-all {
+    text-align: center;
+    margin-top: 50px;
+    display: none;
+}
+
+.view-all a {
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    font-size: 20px;
+    padding: 10px 40px;
+    border-radius: 10px;
+
+}
+
+
 /* ..................footer ..............*/
 footer {
     width: 100%;
@@ -166,13 +190,14 @@ h1 {
 
 .social-icon {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 5px;
 
 }
 
 .social-icon>a {
     color: red;
     margin-left: 30px;
+
 }
 
 .footer {
@@ -203,4 +228,76 @@ h1 {
 .france {
     text-align: center;
     margin-top: 20px;
+}
+
+/*............... responsive part........... */
+
+@media screen and (max-width:900px) {
+
+    .header-part {
+        margin: 10px 10px;
+        padding: 50px 20px;
+    }
+
+    .header-img img {
+        width: 100%;
+    }
+
+    .header-part h1 {
+        font-size: 40px;
+    }
+
+
+    .section-1 {
+        flex-wrap: wrap;
+        margin-left: 0%;
+        justify-content: center;
+    }
+
+    .view-all {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .header-part {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 5px;
+        padding: 0 0;
+    }
+
+    .header-part h1 {
+        font-size: 50px;
+    }
+
+    .header-img img {
+        margin-top: 20px;
+        width: 100%;
+
+    }
+
+    .section-1 {
+        flex-direction: column;
+        margin-left: 0px;
+        align-items: center;
+        justify-items: center;
+    }
+
+
+
+    .footer>li {
+
+        display: block;
+        margin-top: 15px;
+    }
+
+    footer {
+        height: 600px;
+    }
+
+    .view-all {
+        display: block;
+    }
 }
