@@ -24,7 +24,7 @@ body {
 }
 
 .text-width {
-    font-size: 65px;
+    font-size: 60px;
 }
 
 .button {
@@ -43,7 +43,7 @@ body {
 
 .button:hover {
     box-shadow: inset 300px 0 0 0 yellow;
-    cursor: pointer;
+
 
 }
 
@@ -155,6 +155,17 @@ h1 {
     display: inline;
     margin-left: 35px;
     text-align: center;
+}
+
+.social-icon {
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.social-icon>a {
+    color: red;
+    margin-left: 30px;
 }
 
 .footer {
