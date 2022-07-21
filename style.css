@@ -1,13 +1,10 @@
 /* font link */
 body {
     font-family: 'Poppins', sans-serif;
-    /* width: 80%; */
     background-color: #E6E6E6;
-
-
 }
 
-/*header styles */
+/*-------------header styles -------------*/
 
 .header-part {
     display: flex;
@@ -45,38 +42,32 @@ body {
 
 .button:hover {
     box-shadow: inset 300px 0 0 0 yellow;
-
-
 }
 
 .header-img img {
     margin-top: 20px;
     width: 600px;
-
 }
 
 
 
 
 
-/*/////////////////////// main section/////////////////////////// */
-/* ancor style */
+/*//////////////// main section///////////// */
+
 .section-1 {
     display: flex;
     margin-left: 120px;
 
-
-
 }
 
-
+/* ancor style /link style */
 .ancor-style {
     background-color: black;
     border-radius: 20px;
     width: 300px;
     height: 350px;
     text-align: center;
-
 }
 
 .ancor-style a {
@@ -98,8 +89,6 @@ body {
 #ancor {
     background-color: red;
 }
-
-
 
 #ancor-1 {
     background-color: red;
@@ -147,7 +136,7 @@ body {
     display: none;
 }
 
-/* extra add view all */
+/*------- extra add view all ------*/
 .view-all {
     text-align: center;
     margin-top: 50px;
@@ -204,7 +193,7 @@ h1 {
     text-align: center;
 }
 
-/* 2nd website some css */
+/*-------------- 2nd website some css-------------- */
 
 .germany-france {
     width: 300px;
@@ -223,15 +212,14 @@ h1 {
     padding: 30px 0;
 }
 
-
-
 .france {
     text-align: center;
     margin-top: 20px;
 }
 
-/*............... responsive part........... */
-
+/*............... responsive part...........
+mobile and tablet device -------------------*/
+/*----- tablet device -----*/
 @media screen and (max-width:900px) {
 
     .header-part {
@@ -259,6 +247,7 @@ h1 {
     }
 }
 
+/*------ mobile device ----- */
 @media screen and (max-width: 550px) {
     .header-part {
         display: flex;
